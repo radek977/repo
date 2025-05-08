@@ -13,10 +13,14 @@ public class Main {
         System.out.println(d.number + "-" + d.text );
         System.out.println(e.otherNumber);
         System.out.println(f.number+", "+f.numbers);
+        
+        
         dni dzienTygodnia = dni.FRIDAY;
         if (dzienTygodnia.equals(dni.FRIDAY)) {
             System.out.println("true");
         }
+        
+        
         System.out.println(g.sekundy+" sekunda");
         if (g.sekundy % 2 == 0) {
             System.out.println("Parzyste");
@@ -24,6 +28,9 @@ public class Main {
         else {
             System.out.println("Nieparzyste");
         }
+        
+        
+        System.out.println(g.sekundy+" sekunda");
         switch (g.sekundy % 2) {
             case 0:{
                 System.out.println("Parzyste");
